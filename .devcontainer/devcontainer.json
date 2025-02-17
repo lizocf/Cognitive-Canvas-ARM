@@ -1,0 +1,8 @@
+{
+    "name": "cognitive-canvas-niryo-one",
+    "dockerComposeFile": "../docker-compose.yaml",
+    "service": "ros-kinetic",
+    "workspaceFolder": "/workspace",
+    "remoteUser": "root"
+}
+  
