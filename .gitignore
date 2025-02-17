@@ -1,0 +1,46 @@
+# Build artifacts and development space
+build/
+devel/
+install/
+build_isolated/
+devel_isolated/
+logs/
+
+# Binaries and libraries
+bin/
+lib/
+
+# Auto-generated message and service files
+msg_gen/
+srv_gen/
+# Also ignore some auto-generated message files (if applicable)
+msg/*Action.msg
+msg/*ActionFeedback.msg
+msg/*ActionGoal.msg
+msg/*ActionResult.msg
+msg/*Feedback.msg
+msg/*Goal.msg
+msg/*Result.msg
+msg/_*.py
+
+# Dynamic reconfigure generated files
+*.cfgc
+cfg/cpp/
+cfg/*.py
+
+# Python cache files
+*.pyc
+__pycache__/
+
+# IDE and editor specific files
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Catkin specific (optional)
+CATKIN_IGNORE
