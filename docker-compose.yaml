@@ -1,0 +1,11 @@
+services:
+
+  ros-kinetic:
+    container_name: niryo-one-dev-container
+    build: 
+      dockerfile: Dockerfile
+    volumes: 
+      - '.:/workspace'
+    stdin_open: true 
+    tty: true
+      
